@@ -1,0 +1,14 @@
+{
+  "name": "api_visualizer",
+  "version": "0.1.0",
+  "description": "Tool to visualize APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Miranda",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

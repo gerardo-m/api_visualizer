@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js/index.js"></script>
+    <title>API Visualizer</title>
+</head>
+<body class="h-screen flex flex-col">
+    <header class="bg-red-400 h-16 fixed w-full">
+        <h1 class="font-mono text-4xl py-2 px-4">API Visualizer</h1>
+    </header>
+    <div class="flex-grow mt-16">
+        <section id="api-inputs" class="bg-green-400 w-full md:w-1/3 float-left h-full">
+            <div class="p-8">
+                URL:
+                <br>
+                <textarea class="resize-none w-11/12" name="" id="api-url"  wrap="soft"></textarea>
+                <br>
+                <button class="bg-orange-400 hover:bg-orange-300 shadow-gray-600 shadow-md rounded-md py-1 px-4" onclick="fetchApi()">
+                    Test
+                </button>
+            </div>
+        </section>
+        <section id="visualizer" class="bg-blue-400 w-full md:w-2/3 float-left h-full">
+            <div id="response-content" class="p-16"> CONTENT</div>
+        </section>
+    </div>
+    
+</body>
+</html>
